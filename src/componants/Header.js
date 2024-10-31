@@ -9,7 +9,7 @@ function Header() {
                     <li>tv</li>
                 </ul>
             </nav>
-            <div>
+            <div className="info-container">
                 <h1>Smart Store</h1>
 
                 <p>You can find your watch, phone, lap and tv here</p>
