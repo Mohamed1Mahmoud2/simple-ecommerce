@@ -20,8 +20,8 @@ function Sections() {
                 <div className="image">
                     <img src={item.photo} alt={item.name} />
                 </div>
-                <p>about:{item.info}</p>
-                <p>price:{item.price}</p>
+                <p>about: {item.info}</p>
+                <p>price: {item.price}$</p>
             </div>)
         }))
 

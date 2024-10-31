@@ -1,6 +1,6 @@
 function Header() {
     return (
-        <header>
+        <header className="chokokutai-regular">
             <nav className="navgation">
                 <ul className="catg">
                     <li>watch</li>
