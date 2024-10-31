@@ -101,3 +101,10 @@ img{
   margin: 33px;
 
 }
+
+.footer-container {
+  background-color: #000;
+  font-size: 20px;
+  height: 200px;
+}
+
