@@ -5,7 +5,7 @@ import Footer from './componants/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App chokokutai-regular">
       <Header />
       <Sections />
       <Footer />
