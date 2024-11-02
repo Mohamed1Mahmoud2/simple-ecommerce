@@ -4,10 +4,10 @@ function Footer() {
     return (
         <footer className="footer-container  chokokutai-regular">
             <div>
-                <p>Developed by Mohamed Mahmoud  <FaCode /></p>
-                <p>GitHub  <FaGithub /></p>
-                <p>linkedin  < FaLinkedinIn /></p>
-                <p>Mail  <FaGoogle /></p>
+                <p><FaCode />  Developed by Mohamed Mahmoud</p>
+                <p><FaGithub />  GitHub</p>
+                <p>< FaLinkedinIn />  linkedin</p>
+                <p><FaGoogle />  Mail</p>
 
 
             </div>
