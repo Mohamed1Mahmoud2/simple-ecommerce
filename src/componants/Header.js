@@ -3,10 +3,10 @@ function Header() {
         <header className="chokokutai-regular">
             <nav className="navgation">
                 <ul className="catg">
-                    <li>watch</li>
-                    <li>phone</li>
-                    <li>lap</li>
-                    <li>tv</li>
+                    <li><a href="#watch">watch</a></li>
+                    <li><a href="#phone">phone</a></li>
+                    <li><a href='#lap'>lap</a></li>
+                    <li><a href='#tv'>tv</a></li>
                 </ul>
             </nav>
             <div className="info-container">
