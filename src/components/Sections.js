@@ -103,7 +103,7 @@ function Sections() {
     wrapItems(tvItem, itemsTv)
 
     const [item, setItem] = useState(itemsWatch);
-    const [phone, setPone] = useState(itemsPhone);
+    const [phone, setPhone] = useState(itemsPhone);
     const [lap, setLap] = useState(itemsLap);
     const [tele, setTele] = useState(itemsTv);
 
@@ -111,7 +111,9 @@ function Sections() {
         // when we need change or add new items in the app we use this function
         wrapItems(arr)
         setItem(itemsWatch)
-        setTele(itemsWatch)
+        setPhone(itemsPhone)
+        setLap(itemsLap)
+        setTele(itemsTv)
     }
     return (
         <>
