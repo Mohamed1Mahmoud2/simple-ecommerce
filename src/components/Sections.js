@@ -2,13 +2,7 @@
 
 import { useState } from "react"
 import watch1 from './photos/watch1.jpg'
-import watch2 from './photos/watch2.jpg'
-import phone1 from './photos/phone1.jpg'
-import phone3 from './photos/phone3.jpg'
-import lap1 from './photos/lap1.jpg'
-import lap2 from './photos/lap2.jpg'
-import tv1 from './photos/tv1.jpg'
-import tv2 from './photos/tv2.jpg'
+
 
 function Sections() {
     function wrapItems(arr, newArr) {
@@ -38,7 +32,7 @@ function Sections() {
             name: 'watchtwo',
             info: 'this is watch from the xcompany ',
             price: 12587,
-            photo: watch2
+            photo: "photos-pub/watch2.jpg"
         }
     ];
 
@@ -49,13 +43,13 @@ function Sections() {
             name: 'phoneone',
             info: 'this is phone from the xcompany ',
             price: 12587,
-            photo: phone1
+            photo: 'photos-pub/phone1.jpg'
         },
         {
             name: 'phonetwo',
             info: 'this is phone from the xcompany ',
             price: 12587,
-            photo: phone3
+            photo: 'photos-pub/phone3.jpg'
         }
     ]
 
@@ -65,13 +59,13 @@ function Sections() {
             name: 'lapone',
             info: 'this is lap from the xcompany ',
             price: 12587,
-            photo: lap1
+            photo: 'photos-pub/lap1.jpg'
         },
         {
             name: 'laptwo',
             info: 'this is lap from the xcompany',
             price: 12587,
-            photo: lap2
+            photo: 'photos-pub/lap2.jpg'
         }
     ]
 
@@ -81,13 +75,13 @@ function Sections() {
             name: 'tvone',
             info: 'this is tv from the xcompany',
             price: 12587,
-            photo: tv1
+            photo: 'photos-pub/tv1.jpg'
         },
         {
             name: 'tvtwo',
             info: 'this is tv from the xcompany',
             price: 12587,
-            photo: tv2
+            photo: 'photos-pub/tv2.jpg'
         },
         {
             name: 'tvthree',
